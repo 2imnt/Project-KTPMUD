@@ -1,3 +1,4 @@
+@startuml
 flowchart TD
     A([Start]) --> B[Khởi tạo PlayerManager]
     B --> C[Load dữ liệu người chơi]
@@ -19,3 +20,4 @@ flowchart TD
     J --> D
 
     K --> L([End])
+@enduml
